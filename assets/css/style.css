@@ -1,0 +1,176 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.container-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-container {
+  background: #FFF;
+  width: 100vw;
+  height: 10.82vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #CCC;
+
+}
+
+.group-left {
+  display: flex;
+  width: 17.24vw;
+  height: 3.91vh;
+  margin-left: 2.83vw;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.group-center {
+  display: flex;
+  width: 47.83vw;
+  height: 6.51vh;
+}
+
+.group-right {
+  display: flex;
+  width: 17.24vw;
+  height: 3.91vh;
+  margin-right: 2.83vw;
+  justify-content: space-between;
+
+}
+
+.search-rectangule-left {
+  width: 41.09vw;
+  height: 6.51vh;
+  background: #FFFF;
+  border: 1px solid #CCCCCC;
+}
+
+.search-rectangule-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.73vw;
+  height: 6.51vh;
+  background: #F8F8F8;
+  border: 1px solid #CCCCCC;
+  border-radius: 5%;
+}
+
+#svg {
+  width: 24px;
+  height: 24px;
+}
+
+#logo-yt {
+  width: 90px;
+  height: 20px;
+}
+
+#avatar-user {
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 50%;
+}
+
+.watching-video {
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  margin: 15px 0px 15px 25px;
+}
+
+#h1-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 15px 15px 5px 15px;
+}
+
+.video-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px;
+  justify-content: space-between;
+}
+
+.channel-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  row-gap: 12px;
+}
+
+#p-titulo-canal {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #515151;
+  margin-left: 12px;
+
+}
+
+.subscribe-button {
+  background-color: #CC0000;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16.41px;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  color: #FFF;
+  border-radius: 2px;
+}
+
+b {
+  font-weight: 600;
+  color: #000;
+}
+
+#actions-words {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.41px;
+  padding: 15px
+}
+
+#actions-btns {
+  width: 24px;
+  height: 24px;
+}
+
+#description-words {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #515151;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 15px 20px;
+}
+
+#related-video p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.41;
+}
+
+#description-video {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #515151;
+  justify-content: center;
+}

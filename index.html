@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 02 - Clonando Página Youtube</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="menu-container">
+    <div class="group-left">
+      <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+      </svg>
+      <img id="logo-yt" src="./assets/images/youtube 1.png" alt="Logomarca Youtube">
+    </div>
+    <div class="group-center">
+      <input type="text" class="search-rectangule-left">
+      <button class="search-rectangule-right">
+        <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <div class="group-right">
+      <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z">
+        </path>
+      </svg>
+      <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z">
+        </path>
+      </svg>
+      <button aria-label="Menu da conta">
+        <img id="avatar-user" alt="Imagem do avatar"
+          src="https://yt3.ggpht.com/yti/ADpuP3PgnvHWn3jETXf-z0gnIJlDzoJ252i4s6b98nQE=s88-c-k-c0x00ffffff-no-rj">
+      </button>
+    </div>
+  </div>
+  <div class="container-display">
+    <div class="watching-video">
+      <img id="img-thumbnail" src="./assets/images/thumbnail.png" alt="Thumbnail DIO">
+      <h1 id="h1-title">Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+      </h1>
+      <div class="video-actions">
+        <div class="channel-infos">
+          <img src="./assets/images/Channel Avatar.png" alt="Avatar do Canal">
+          <p id="p-titulo-canal"><b>DIO</b><br> 83,3 mil inscritos</p>
+        </div>
+        <button class="subscribe-button">inscreva-se</button>
+        <div class="like-section" style="display: flex; align-items: center;">
+          <img id="actions-btns" src="./assets/images/thumbs-up.png" alt="Like button">
+          <p id="actions-words">2 mil</p>
+        </div>
+        <div class="dislike-section" style="display: flex; align-items: center;">
+          <img id="actions-btns" src="./assets/images/thumbs-down.png" alt="Dislike button">
+          <p id="actions-words">Não gostei</p>
+        </div>
+        <div class="share-section" style="display: flex; align-items: center;">
+          <img id="actions-btns" src="./assets/images/share-2.png" alt="Share button">
+          <p id="actions-words">Compartilhar</p>
+        </div>
+        <div class="download-section" style="display: flex; align-items: center;">
+          <img id="actions-btns" src="./assets/images/download.png" alt="Download button">
+          <p id="actions-words">Download</p>
+        </div>
+        <p id="actions-words">28.418 visualizações Transmitido ao vivo em 23 ago. de 2022</p>
+        <p id="description-words" style="width: 510px; height: 64px; margin-left: 10px;">Inicie uma aventura imersiva no
+          mundo do Front-end
+          com HTML e CSS. Para isso,
+          criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um
+          theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div id="related-video">
+        <img src="./assets/images/Video.png" alt="Geração Tech Unimed">
+      </div>
+      <div id="related-video">
+        <img src="./assets/images/Video_ScrumTalk.png" alt="Scrum Talk">
+      </div>
+      <div id="related-video">
+        <img src="./assets/images/Video_GlobalSkills.png" alt="Global Skills">
+      </div>
+      <div id="related-video">
+        <img src="./assets/images/Video_Python.png" alt="Curso de Python">
+      </div>
+      <div id="related-video">
+        <img src="./assets/images/Video.png" alt="Geração Tech Unimed">
+      </div>
+      <div id="related-video">
+        <img src="./assets/images/Video_ScrumTalk.png" alt="Scrum Talk">
+      </div>
+      <div id="related-video">
+        <img src="./assets/images/Video_GlobalSkills.png" alt="Global Skills">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
